@@ -31,7 +31,7 @@
   <script>
   window.onload = function(){
     var browser = window.navigator.userAgent;
-    if (browser.indexOf('MSIE') !== -1) {
+    if (browser.indexOf('MSIE') !== -1 || browser.indexOf('Edge') !== -1 ) {
       window.open('CV_Boris_de_GRANDMAISON.pdf','_self');
     }
   };
