@@ -1,0 +1,244 @@
+*{
+  text-align: center
+}
+
+#entete{
+  background-color: black;
+  width: 100%
+}
+
+header hr{
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin-top: 0.5%
+}
+
+nav{
+  padding-top: 2vh
+}
+
+#hello{
+  border-bottom: black 10px dotted;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: mintcream
+}
+
+#bienvenue{
+  font-family: 'Press Start 2P', cursive
+}
+
+.choixdujeu{
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding-top:5vh;
+  padding-bottom: 5vh
+}
+
+.choixdujeu:hover{
+  background-color: beige
+}
+
+#blacktop{
+  margin-top: 1.5vh;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: white;
+  font-size: 2em
+}
+
+.liens{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2em;
+  text-align: center;
+  list-style: none;
+  float: left;
+  color: white
+}
+
+.liens:hover{
+  color: Chartreuse
+}
+
+a{
+  color: white;
+  text-decoration: none
+}
+
+a:hover{
+  color: Chartreuse
+}
+
+form{
+  margin-top: 5vh
+}
+
+select{
+  margin-top: 2vh;
+  text-align: center
+}
+
+legend{
+  text-align: center;
+}
+
+label{
+  padding-bottom: 1vh
+}
+
+.formulaire{
+  float: left;
+  margin-bottom: 5vh;
+  text-align: center
+}
+
+button{
+  clear: both;
+  display: block;
+  width: 20vw;
+  text-align: center;
+  margin: 5vh auto;
+}
+#div1{
+  position:fixed;
+  top: 14vh;
+  left: 3vw
+}
+
+#div1 p{
+  position: fixed;
+  top: 22vh;
+  left: -18vw;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease
+}
+
+.oeufs{
+  max-height: 16vh;
+  display: none
+}
+
+#div2{
+  position:fixed;
+  top: 14vh;
+  right: 3vw
+}
+
+#div2 p{
+  position: fixed;
+  top: 19vh;
+  left: 110vw;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease
+}
+
+.mirror{
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+#div3{
+  position:fixed;
+  top: 34vh;
+  left: 3vw
+}
+
+#div3 p{
+  position: fixed;
+  top: 39vh;
+  left: -18vw;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease
+}
+
+#div4{
+  position:fixed;
+  top: 34vh;
+  right: 3vw
+}
+
+#div4 p{
+  position: fixed;
+  top: 39vh;
+  left: 110vw;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease
+}
+
+#div5{
+  position:fixed;
+  top: 54vh;
+  left: 3vw
+}
+
+#div5 p{
+  position: fixed;
+  top: 60vh;
+  left: -18vw;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease
+}
+
+#div6{
+  position:fixed;
+  top: 54vh;
+  right: 3vw
+}
+
+#div6 p{
+  position: fixed;
+  top: 59vh;
+  left: 110vw;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease
+}
+
+#div7{
+  position:fixed;
+  top: 74vh;
+  left: 3vw
+}
+
+#div7 p{
+  position: fixed;
+  top: 80.5vh;
+  left: -18vw;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease
+}
+
+#div8{
+  position:fixed;
+  top: 74vh;
+  right: 3vw
+}
+
+#div8 p{
+  position: fixed;
+  top: 79vh;
+  left: 112vw;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease
+}
+
+span{
+  font-family: 'Press Start 2P', cursive
+}
+
+#poule p{
+  z-index: -10
+}

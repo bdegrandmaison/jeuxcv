@@ -1,0 +1,241 @@
+*{
+  text-align: center
+}
+
+#entete{
+  background-color: black;
+  width: 100%
+}
+
+header hr{
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin-top: 0.5%
+}
+
+nav{
+  padding-top: 2vh
+}
+
+#hello{
+  border-bottom: black 10px dotted;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: mintcream
+}
+
+#bienvenue{
+  font-family: 'Press Start 2P', cursive
+}
+
+.choixdujeu{
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding-top:5vh;
+  padding-bottom: 5vh
+}
+
+.choixdujeu:hover{
+  background-color: beige
+}
+
+#blacktop{
+  margin-top: 1.5%;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: white;
+  font-size: 2em
+}
+
+.liens{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2em;
+  text-align: center;
+  list-style: none;
+  float: left;
+  color: white
+}
+
+a{
+  color: white;
+  text-decoration: none
+}
+
+a:hover{
+  color: Chartreuse
+}
+
+.liens:hover{
+  color: Chartreuse
+}
+
+form{
+  margin-top: 5%
+}
+
+select{
+  margin-top: 2%;
+  text-align: center
+}
+
+legend{
+  text-align: center;
+}
+
+label{
+  padding-bottom: 1%
+}
+
+.formulaire{
+  float: left;
+  margin-bottom: 5%;
+  text-align: center
+}
+
+button{
+  clear: both;
+  display: block;
+  width: 20%;
+  text-align: center;
+  margin: 5% auto;
+}
+
+#div1{
+  display: none;
+  position:fixed;
+  top: 14%;
+  left: 1%
+}
+
+#div1 p{
+  position: fixed;
+  top: 22%;
+  left: 6%
+}
+
+.oeufs{
+  height: 16%;
+  display: none
+}
+
+#div2{
+  display: none;
+  position:fixed;
+  top: 14%;
+  right: 1%
+}
+
+#div2 p{
+  position: fixed;
+  top: 19%;
+  left: 110%;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease
+}
+
+.mirror{
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+#div3{
+  display: none;
+  position:fixed;
+  top: 34%;
+  left: 1%
+}
+
+#div3 p{
+  position: fixed;
+  top: 39%;
+  left: 6%
+}
+
+#div4{
+  display: none;
+  position:fixed;
+  top: 34%;
+  right: 1%
+}
+
+#div4 p{
+  position: fixed;
+  top: 39%;
+  left: 110%;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease
+}
+
+#div5{
+  display: none;
+  position:fixed;
+  top: 54%;
+  left: 1%
+}
+
+#div5 p{
+  position: fixed;
+  top: 60%;
+  left: 6%
+}
+
+#div6{
+  display: none;
+  position:fixed;
+  top: 54%;
+  right: 1%
+}
+
+#div6 p{
+  position: fixed;
+  top: 59%;
+  left: 110%;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease
+}
+
+#div7{
+  display: none;
+  position:fixed;
+  top: 74%;
+  left: 1%
+}
+
+#div7 p{
+  position: fixed;
+  top: 80.5%;
+  left: 6%
+}
+
+#div8{
+  display: none;
+  position:fixed;
+  top: 74%;
+  right: 1%
+}
+
+#div8 p{
+  position: fixed;
+  top: 79%;
+  left: 112%;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease
+}
+
+span{
+  font-family: 'Press Start 2P', cursive
+}
+
+#poule p{
+  z-index: -10
+}

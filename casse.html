@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Jeu du casse-brique" content="Casse brique d'un développeur full stack JS">
+    <title>Casse-brique</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/moncss2.css">
+    <link rel="stylesheet" href="colorpicker/css/bootstrap-colorpicker.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script src="js/casse.js" charset="utf-8"></script>
+  </head>
+  <body background="img/wall.jpg" style="background-attachment:fixed">
+    <header id="entete" class="container-fluid col-xs-12">
+      <div id="blacktop">
+        Développeur Full Stack
+      </div>
+      <hr>
+      <nav>
+          <div class="col-xs-4 liens"><a href="index.html">ACCUEIL</a></div>
+          <div class="col-xs-4 liens"><a  href="cv.html">CV</a></div>
+          <div onclick="location.href='mailto:bdegrandmaison@hotmail.fr';" class="col-xs-4 liens">CONTACT</div>
+      </nav>
+    </header>
+    <div style="clear: both; font-family: 'Press Start 2P', cursive; text-align: center;padding: 2vh; background-color: rgba(255,255,255,0.7); border-bottom: 6px black solid">
+      <h3>Les règles</h3>
+      <br>
+      <p>Cliquer pour tirer une boule et détruisez, à l'aide de cette boule, tous les blocs sur le terrain.<br>Si la boule vient à tomber sans être rattrapée, elle s'autodétruira.<br>Le bloc étoile vous permettra de tirer des lasers et le bloc boule vous offrira une boule supplémentaire.<br><br>Merci de mettre à jour votre navigateur</p>
+    </div>
+    <div style="padding: 1vh">
+      <canvas style="display:block;margin: 0 auto; border: 5px white ridge" id="lecanvas" width="1088" height="680"></canvas>
+    </div>
+    <div id="poule">
+      <div id="div1"><p style="border: 2px black solid; font-weight: bold; background-color: ghostwhite; padding:10px; left: 7.5%; top: 41%">Anglais courant</p></div>
+      <div id="div2"><p style="border: 2px black solid; background-color: ghostwhite; padding: 10px; left: 87.5%;
+    top: 39%"><span>Formation</span><br>Sciences Biomédicales<br>King's College</p></div>
+      <div id="div3"><p style="border: 2px black solid; background-color: ghostwhite; padding:10px; top: 55%; left: 6.1%"><span>Expériences</span><br>4 ans<br>en conseil et vente<br>dans divers domaines</p></div>
+      <div id="div4"><p style="border: 2px black solid; background-color: ghostwhite; padding:10px; left: 87.5%; top: 56%"><span>Formation</span><br>Développeur Full Stack<br>IFOCOP</p></div>
+      <div id="div5"><p style="border: 2px black solid; background-color: ghostwhite; padding:10px;left: 5.6%; top: 74%"><span>Expériences</span><br>dans le socio-médical<br>et en hôtellerie-restauration</p></div>
+      <div id="div6"><p style="border: 2px black solid; background-color: ghostwhite; padding:10px; left: 86.5%; top: 73%"><span>Compétences</span><br>HTML/CSS Javascript JQuery<br>Bootstrap Angular</p></div>
+      <div id="div7"><p style="border: 2px black solid; background-color: ghostwhite; padding:10px; top: 90.5%"><span>Compétences</span><br>NodeJS<br>Express AJAX Meteor</p></div>
+      <div id="div8"><p style="border: 2px black solid; background-color: ghostwhite; padding:10px; left: 88.3%; top: 90%"><span>Hobbies</span><br>Arts, Voyages<br>Sports, Découverte</p></div>
+    </div>
+    <script>
+      document.getElementById('lecanvas').style.cursor = "none";
+    </script>
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="colorpicker/js/bootstrap-colorpicker.min.js" charset="utf-8"></script>
+  </body>
+</html>

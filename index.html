@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Page d'accueil" content="Page d'accueil du site de Boris de Grandmaison, développeur full stack JS">
+    <title>Développeur Full Stack</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/moncss2.css">
+    <link rel="stylesheet" href="colorpicker/css/bootstrap-colorpicker.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  </head>
+  <body>
+    <header id="entete" class="container-fluid col-xs-12">
+      <div id="blacktop">
+        Développeur Full Stack
+      </div>
+      <hr>
+      <nav>
+          <div class="col-xs-4 liens"><a href="index.html">ACCUEIL</a></div>
+          <div class="col-xs-4 liens"><a href="cv.html">CV</a></div>
+          <div onclick="location.href='mailto:bdegrandmaison@hotmail.fr';" class="col-xs-4 liens">CONTACT</div>
+      </nav>
+    </header>
+    <div style="clear: both" id="bienvenue">
+      <div id="hello">
+        <h2>Bienvenue !<br><br>Si l'envie vous dit, veuillez choisir un jeu</h2>
+      </div>
+      <div class="choixdujeu" id="beatit" onclick="beatit();">
+        <h3>Un snake ?</h3>
+        <br><br>
+        <img style="max-width: 65%" src="sprites/jeusnake.png" alt="Jeu du serpent">
+      </div>
+      <div class="choixdujeu"  id="breakit" onclick="breakit();">
+        <h3>Un casse-brique ?</h3>
+        <br><br>
+        <img style="max-width: 70%" src="sprites/jeucasse.png" alt="Jeu du casse-brique">
+      </div>
+    </div>
+
+  <script type="text/javascript">
+    var beatit = function(){
+      window.open('serpent.html', '_self');
+    };
+
+    var breakit = function(){
+      window.open('casse.html', '_self');
+    };
+
+  </script>
+  <script src="js/jquery.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="colorpicker/js/bootstrap-colorpicker.min.js" charset="utf-8"></script>
+
+  </body>
+</html>
